@@ -5,7 +5,14 @@ public class Board {
 	/**
 	 * asdassd
 	*/
+	
+
 	final static int BOARD_SIZE = 8;
+	
+	public boolean castlingStillPossibleWhiteBig = true;
+	public boolean castlingStillPossibleBlackBig = true;
+	public boolean castlingStillPossibleWhiteSmall = true;
+	public boolean castlingStillPossibleBlackSmall = true;
 
 	Piece[][] board = new Piece[BOARD_SIZE][BOARD_SIZE];
 	int halfturn;

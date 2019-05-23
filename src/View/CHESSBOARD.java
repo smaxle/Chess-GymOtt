@@ -1,3 +1,5 @@
+package View;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -29,16 +31,16 @@ public class CHESSBOARD {
         JToolBar tools = new JToolBar();
         tools.setFloatable(false);
         gui.add(tools, BorderLayout.PAGE_START);
-        //beispiel buttons mit möglicher funktion
+        //beispiel buttons mit mï¿½glicher funktion
         tools.add(new JButton("Neues Spiel")); 
         tools.add(new JButton("Speichern")); 
         tools.add(new JButton("Alter Spielstand")); 
         tools.addSeparator();
-        tools.add(new JButton("Schließen")); 
+        tools.add(new JButton("Schlieï¿½en")); 
         tools.addSeparator();
         tools.add(message);
         
-        //noch Platz für andere Elemente
+        //noch Platz fï¿½r andere Elemente
         gui.add(new JLabel("..."), BorderLayout.LINE_START);
 
         chessBoard = new JPanel(new GridLayout(0, 9));
